@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Prosto+One&family=Sonsie+One&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    padding-top: 10px;
+    z-index: 10;
+    background: #f1f1f1;
+}
+
+.logo{
+    position: absolute;
+    width: 40%;
+    height: calc(100% - 10px);
+}
+
+.logo a {
+    font-family: "Sonsie One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25pt;
+    text-decoration: none;
+    color: #006;
+    padding-left: 10px;
+}
+
+.menu{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    width: 60%;
+    height: calc(100% - 10px);
+}
+
+.menu a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Prosto One", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14pt;
+    color: #000;
+    /* Button */
+    width: 170px;
+    height: 30px;
+    border-radius: 4px;
+    background: #fcfcfc;
+    margin-inline: 2px;
+    text-decoration: none;
+    transition: background 500ms ease, color 500ms ease, letter-spacing 500ms ease, text-shadow 500ms ease;
+}
+
+.menu a.actived {
+    color: #222;
+    border-bottom: 1px solid #111;
+    background: #f7f7f7;
+}
+
+.menu a:hover{
+    border-bottom: 1px solid #0078;
+    letter-spacing: 2px;
+    background: #eaeaea;
+    color: #111;
+}
+
+header{
+    position: relative;
+    top: -8px;
+    left: -8px;
+    padding-top: 70px;
+    padding-inline: 15px;
+    background: #f1f1f1;
+
+    z-index: 5;
+}
+
+header h1{
+    font-size: 30pt;
+    font-weight: 900;
+    font-style: italic;
+    margin-bottom: 10px;
+}
