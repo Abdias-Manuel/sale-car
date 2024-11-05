@@ -1,0 +1,22 @@
+.all{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #009;
+    padding: 10px;
+}
+
+.resp,
+.perg{
+    height: auto;
+    border: 1px solid #f04;
+    padding-inline: 20px;
+    padding-block: 10px;
+    margin-inline: 10px;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+}

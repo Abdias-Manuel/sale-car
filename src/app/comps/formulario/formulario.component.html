@@ -1,1 +1,20 @@
-<p>formulario works!</p>
+<div class="all">
+    <div class="perg">
+        <div *ngFor="let questao of questoes">
+            <h3 class="quest">{{questao.pergunta}}</h3>
+            <input [type]="questao.typ" [(ngModel)]="questoes[0].resp">
+            <div id="plus" *ngIf="questao.pergunta === 'contacto telefónico'">
+                <label for="whats">Mesmo para o Watsapp</label>
+                <input type="checkbox" name="whats" id="whats">
+            </div>
+            <button>Ok</button>
+        </div>
+    </div>
+    
+    <div id="folha" class="resp">
+        <div class="linha">
+            <h3>{{questoes[0].pergunta}}</h3>
+            <p>{{questoes[0].resp}}</p>
+        </div>
+    </div>
+</div>
