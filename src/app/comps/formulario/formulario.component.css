@@ -3,20 +3,66 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
     border: 1px solid #009;
     padding: 10px;
 }
 
 .resp,
 .perg{
-    height: auto;
-    border: 1px solid #f04;
-    padding-inline: 20px;
+    background-color: #fafafa;
+    position: relative;
+    width: 490px;
+    height: 455px;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 5px #ccc7;
+    padding-inline: 5px;
     padding-block: 10px;
     margin-inline: 10px;
 }
+
+.resp *{
+    margin: 0;
+    padding: 0;
+}
+
+.resp h2{
+    text-align: center;
+    margin-block: 10px;
+}
+
 .linha{
-    display: flex;
-    flex-direction: row;
+    display: block;
+    position: relative;
+    font-family: "Lato", sans-serif;
+    background-color: #fff;
+    border-bottom: 10px solid #fafafa;
+}
+.linha h3{
+    display: inline;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 14pt;
+}
+.linha p{
+    position: absolute;
+    display: inline;
+    left: 190px;
+    width: 300px;
+    font-weight: 520px;
+    font-style: normal;
+    font-size: 14pt;
+}
+
+.resp .btn{
+    position: absolute;
+    right: 30px;
+    font-weight: 600;
+    border: 1px solid #05a500;
+    border-radius: 15px;
+    padding: 6px 25px;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #ddd;
 }

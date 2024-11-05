@@ -14,7 +14,7 @@ export class FormularioComponent {
     {
       pergunta:'nome completo',
       typ:'text',
-      resp:'',
+      resp:'abdias manuel nzolameso tomas',
       preenchido:false,
     },
     {
