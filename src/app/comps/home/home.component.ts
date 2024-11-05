@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { ConteudoComponent } from '../conteudo/conteudo.component';
 import { Router } from '@angular/router';
-import { CardsComponent } from '../../cards/cards.component';
+import { CardsComponent } from '../cards/cards.component';
 
 @Component({
   selector: 'app-home',

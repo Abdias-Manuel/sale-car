@@ -1,0 +1,10 @@
+<div class="c-box">
+    <div class="card" *ngFor="let card of cards">
+        <img [src]="card.img" alt="suziki-s-presso">
+        <div class="infor">
+            <h5>{{card.tit}}</h5>
+            <p>{{card.tex}}</p>
+        </div>
+        <button class="btn">contactar</button>
+    </div>
+</div>

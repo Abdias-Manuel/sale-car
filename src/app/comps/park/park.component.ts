@@ -1,23 +1,14 @@
+import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+import { CardsComponent } from '../cards/cards.component';
 
 @Component({
   selector: 'app-park',
   standalone: true,
-  imports: [],
+  imports: [CommonModule, CardsComponent],
   templateUrl: './park.component.html',
   styleUrl: './park.component.css'
 })
 export class ParkComponent {
-  cards:object[] = [
-    { 
-      img:'images/suziki-s-presso.png',
-      tit:'Suziki S-PRESSO',
-      tex:'O Suzuki S-Presso é um compacto urbano que combina praticidade e estilo em um único veículo. Equipado com um motor de 1.0 litro, ele oferece desempenho eficiente e economia de combustiv...'
-    },
-    { 
-      img:'images/suziki-s-presso.png',
-      tit:'Suziki S-PRESSO',
-      tex:'O Suzuki S-Presso é um compacto urbano que combina praticidade e estilo em um único veículo. Equipado com um motor de 1.0 litro, ele oferece desempenho eficiente e economia de combustiv...'
-    }
-  ];
+  
 }

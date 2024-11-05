@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@0;1&family=Prosto+One&family=Sonsie+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
 .principal{
     width: 95%;
     padding: 10px;
     margin-inline: auto;
+}
+
+app-cards{
+    margin-top: 2cm;
 }
 
 #pri01{
@@ -12,6 +19,7 @@
     border-radius: 40px;
     padding: 5px 20px;
     margin-inline: auto;
+    margin-block: 3cm;
     max-width: 950px;
     max-height: 450px;
     overflow: hidden;
