@@ -13,5 +13,5 @@ export const routes: Routes = [
     { path: 'park', component: ParkComponent},
     { path: 'formulario', component: FormularioComponent},
     { path: 'sobre', component: SobreComponent},
-    { path: '**', component: PageNotFoundComponent}
+    { path: '**', redirectTo: '', pathMatch: 'full'}
 ];
